@@ -79,10 +79,7 @@ int main()
         free_arr(lines, count);
     }
 
-    else
-    {
-        printf("Не удалось проичтать файл!");
-    }
+    // если не удалось открыть файл, выведется ошибка perror
 
     return 0;
 }
